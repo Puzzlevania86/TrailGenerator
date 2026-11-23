@@ -1,0 +1,150 @@
+Smoky Mountains, Alum Cave Bluffs, Moderate, 4.5, 1200
+Smoky Mountains, Kuwohi, Easy, 1.3, 334
+Smoky Mountains, Abrams Falls, Moderate, 5.1, 679
+Smoky Mountains, Laurel Falls, Easy, 2.5, 383
+Smoky Mountains, Charlies Bunion, Moderate, 8.1, 1837
+Smoky Mountains, Rainbow Falls, Moderate, 5.4, 1597
+Smoky Mountains, Mount Crammer Lookout Tower, Hard, 11, 3045
+Smoky Mountains, Andrews Bald, Moderate, 3.6, 866
+Smoky Mountains, Mingus Mill and Newton Bald Trail, Hard, 10.4, 2992
+Smoky Mountains, Hen Wallow Falls, Moderate, 4.6, 997
+Zion, Angels Landing Trail, Hard, 4.8, 1699
+Zion, Narrows Bottom Up, Hard, 14.3, 4517
+Zion, Observation Point, Moderate, 7, 656
+Zion, Canyon Overlook, Easy, 1.2, 275
+Zion, Emerald Pools, Moderate, 3, 406
+Zion, The Subway, Hard, 7.4, 1210
+Zion, Weeping Rock, Easy, 0.4, 75
+Zion, Checkerboard Mesa, Hard, 8.1, 1840
+Zion, Watchman Trail, Moderate, 3.3, 551
+Zion, Koblob Arch, Hard, 14.2, 1650
+Grand Canyon, Bright Angel Point, Easy, 0.9, 111
+Grand Canyon, Desert View Watchtower, Easy, 0.5, 39
+Grand Canyon, Cape Royal, Easy, 1.2, 170
+Grand Canyon, Point Imperial Trail, Moderate, 5.3, 383
+Grand Canyon, Nankoweap Granaries, Hard, 1.6, 997
+Grand Canyon, Roaring Springs, Hard, 10.3, 3480
+Grand Canyon, Escalante Route, Hard, 11.3, 1302
+Grand Canyon, Tanner Trail, Hard, 15.4, 5383
+Grand Canyon, Dipping Springs, Hard, 6.4, 2106
+Grand Canyon, New Hance Trail, Hard, 12.3, 4872
+Yellowstone, Artist Point, Easy, 2.8, 298
+Yellowstone, Grand Prismatic Hot Spring Overlook, Easy, 1.6, 131
+Yellowstone, Brink of Lower Falls, Moderate, 2, 360
+Yellowstone, Old Faithful Loop, Easy, 2, 137
+Yellowstone, Mammoth Hot Springs Lower Terraces, Easy, 1.3, 193
+Yellowstone, Lamar Valley Trail, Moderate, 7.1, 688
+Yellowstone, Avalanche Peak, Hard, 4.8, 2086
+Yellowstone, Elephant Back Mountain, Moderate, 3.9, 793
+Yellowstone, Black Canyon Deer Creek, Hard, 12.5, 1968
+Yellowstone, Specimen Ridge Trail, Hard, 17.7, 3953
+Rocky Mountain, Dream Lake, Moderate, 2, 449
+Rocky Mountain, Alberta Falls, Easy, 1.7, 232
+Rocky Mountain, Rocky Mountain Loop, Moderate, 8.1, 1049
+Rocky Mountain, Gem Lake, Moderate, 3.4, 997
+Rocky Mountain, Chasm Lake, Hard, 8.5, 2542
+Rocky Mountain, The Loch, Moderate, 5.7, 1072
+Rocky Mountain, Lily Lake, Easy, 0.8, 13
+Rocky Mountain, Sky Pond, Hard, 9, 1788
+Rocky Mountain, Longs Peak Keyhole Route, Hard, 12.7, 4839
+Rocky Mountain, Adams Falls, Easy, 0.8, 108
+Acadia, Cadillac Summit Loop Trail, Easy, 0.4, 55
+Acadia, Thunder Hole, Easy, 1.7, 160
+Acadia, Otter Point, Easy, 1.1, 91
+Acadia, Schoodic Head and The Anvil Loop, Moderate, 2.5, 482
+Acadia, The Beehive, Hard, 1.6, 515
+Acadia, Beech Mountain South Ridge Loop, Moderate, 1.2, 357
+Acadia, Great Head Trail Loop, Moderate, 1.9, 265
+Acadia, Precipice Loop, Hard, 2.8, 997
+Acadia, Dorr Mountain Ladder Trail, Hard, 3.2, 1151
+Acadia, Cadillac, Dorr, and Champlain Mountains Loop, Hard, 8.5, 2650
+Yosemite, Glacier Point Trail, Easy, 0.5, 36
+Yosemite, Half Dome via Little Yosemtie Valley, Hard, 7.1, 2667
+Yosemite, Vernal Falls, Hard, 3.4, 1115
+Yosemite, Lower Yosemite Falls Trail, Easy, 1.2, 59
+Yosemite, Clouds Rest, Hard, 12.6, 3038
+Yosemite, Sentinel Dome, Moderate, 2.2, 436
+Yosemite, Artist Point, Moderate, 2.3, 754
+Yosemite, North Dome, Hard, 9.8, 2004
+Yosemite, Lembert Dome Loop, Moderate, 3.9, 843
+Yosemite, Taft Point and the Fissures, Easy, 2.5, 328
+Grand Teton, Hidden Falls Trail, Moderate, 4.8, 200
+Grand Teton, Schwabacker's Landing, Easy, 0.5, 3
+Grand Teton, Signal Mountain Trail, Moderate, 7.6, 1200
+Grand Teton, Oxbow Bend Overlook, Easy, 0.1, 3
+Grand Teton, Lake Solitude Trail, Hard, 16.8, 2542
+Grand Teton, Grand View Point Trail, Moderate, 3.1, 702
+Grand Teton, Suprise and Amphitheater Lakes Trail, Hard, 10.4, 2985
+Grand Teton, Jenny Lake Loop, Moderate, 7.7, 711
+Grand Teton, Lakeshore Trail, Easy, 2.6, 118
+Grand Teton, Delta Lake, Hard, 7.6, 2299
+Olympic, Hurricane Hill, Moderate, 3.5, 823
+Olympic, Ruby Beach, Easy, 1.1, 65
+Olympic, Sol Duc Falls, Easy, 1.8, 269
+Olympic, Second Beach, Easy, 2.2, 275
+Olympic, Enchanted Valley Chalet, Hard, 26.5, 3326
+Olympic, Olympic Hot Springs, Hard, 21.8, 3031
+Olympic, Ozette Triangle, Moderate, 9.4, 541
+Olympic, Lake Angels Trail, Hard, 7.3, 2473
+Olympic, Third Beach, Easy, 2.6, 328
+Olympic, 5-Mile Island, Moderate, 10.2, 521
+Joshua Tree, Cholla Cactus Garden, Easy, 0.2, 6
+Joshua Tree, Barker Dam, Easy, 1.3, 49
+Joshua Tree, Heart and Arch Rocks Loop, Moderate, 2.9, 229
+Joshua Tree, Ryan Mountain, Hard, 2.9, 1049
+Joshua Tree, Hidden Valley, Easy, 1, 111
+Joshua Tree, Lost Palms Oasis, Moderate, 7.4, 1105
+Joshua Tree, Lost Horse Loop, Moderate, 6.4, 813
+Joshua Tree, Fortynine Palms Oasis, Moderate, 3.2, 659
+Joshua Tree, Eagle Mountain, Hard, 10, 2500
+Joshua Tree, Smith Water Canyon, Hard, 8.6, 1049
+Glacier, Three Falls Trail, Moderate, 6.4, 790
+Glacier, Highline Trail, Hard, 15.2, 2306
+Glacier, Grinell Glacier, Hard, 11, 1948
+Glacier, Running Eagle Falls, Easy, 0.6, 9
+Glacier, Siyeh Pass, Hard, 10.1, 2263
+Glacier, Rocky Point, Easy, 2, 285
+Glacier, Ptarmigan Tunnel, Hard, 10.7, 2352
+Glacier, Iceberg Lake, Moderate, 9.6, 1397
+Glacier, Hidden Lake Overlook, Moderate, 2.8, 538
+Glacier, Avalanche Lake, Moderate, 6.1, 705
+Cuyahoga Valley, Brandywine Falls Upper Boardwalk, Easy, 0.3, 19
+Cuyahoga Valley, Brandywine Falls Loop, Moderate, 2.6, 341
+Cuyahoga Valley, Ledges Trail, Moderate, 2.4, 213
+Cuyahoga Valley, Blue Hen and Buttermilk Falls, Moderate, 2, 239
+Cuyahoga Valley, Deer Lick Cave and Buckeye Loop, Moderate, 4.2, 492
+Cuyahoga Valley, Salt Run, Moderate, 3.4, 413
+Cuyahoga Valley, Forest Point, Easy, 0.7, 29
+Cuyahoga Valley, Langes Run, Easy, 4.2, 265
+Cuyahoga Valley, Jaite Mill Bridle and Buckeye Trail Loop, Hard, 12.1, 1289
+Cuyahoga Valley, Mammoth March, Hard, 19.8, 1679
+Indiana Dunes, West Beach via Dune Succession Trail, Moderate, 1, 75
+Indiana Dunes, Mount Baldy Beach, Easy, 0.7, 52
+Indiana Dunes, Portage Lakefront, Easy, 0.7, 16
+Indiana Dunes, Pinhook Bog, Easy, 0.9, 45
+Indiana Dunes, Chellberg Farm, Easy, 1.1, 65
+Indiana Dunes, Cowles Bog, Moderate, 4.4, 265
+Indiana Dunes, Paul H. Douglas Trail, Moderate, 3.5, 88
+Indiana Dunes, 3 Dune Challenge, Hard, 1.5, 552
+Indiana Dunes, Tolleston Dunes Trail, Moderate, 2.9, 141
+Indiana Dunes, Cowles Bog + 3 Dune Challenge, Hard, 14.9, 869
+Hot Springs, Sunset Trail, Hard, 13.1, 2345
+Hot Springs, Goat Rock Trail, Moderate, 2.7, 426
+Hot Springs, Grand Promenade, Easy, 0.7, 78
+Hot Springs, Oertel Trail, Moderate, 3.4, 567
+Hot Springs, Upper Dogwood Trail, Easy, 1.5, 183
+Hot Springs, Gulpha Gorge Trail, Moderate, 1.5, 387
+Hot Springs, Balanced Rock Trail, Moderate, 1.9, 337
+Hot Springs, Whittington Trail, Easy, 1.2, 32
+Hot Springs, Mountain Top Trail, Hard, 2.9, 767
+Hot Springs, West Mountain Loop, Moderate, 2.3, 341
+Bryce Canyon, Rim Trail, Hard, 11, 1545
+Bryce Canyon, Point Trail, Easy, 0.2, 19
+Bryce Canyon, Fairyland Loop Trail, Moderate, 8.1, 1538
+Bryce Canyon, Peekaboo Loop, Hard, 5.1, 1341
+Bryce Canyon, Navajo Loop, Moderate, 1.6, 508
+Bryce Canyon, Under the Rim Trail, Hard, 22.9, 4317
+Bryce Canyon, Mossy Cave, Easy, 0.9, 111
+Bryce Canyon, Bristlecone Loop, Easy, 1.1, 118
+Bryce Canyon, Tower Bridge Trail, Moderate, 3.8, 836
+Bryce Canyon, Sunrise Point, Easy, 0.4, 39
