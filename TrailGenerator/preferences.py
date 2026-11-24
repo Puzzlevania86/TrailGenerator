@@ -1,14 +1,9 @@
-#parkName is temporary until geocoding API is implemented
-parkName = "Joshua Tree"
-
-def checkPreferences(diff, diffSelected, dist, distSelected):
+#Finds the preferences based on the user's specified difficulty and/or distance
+def checkPreferences(parkName, diff, diffSelected, dist, distSelected):
     if not diffSelected and not distSelected:
         return 
     
     trails = []
-    diffs = []
-    mileage = []
-    heights = []
     
     with open("TrailGenerator/csv.txt") as csv:
         for line in csv:
@@ -17,32 +12,35 @@ def checkPreferences(diff, diffSelected, dist, distSelected):
                 #checks if both difficulty and distance buttons were selected
                 if diffSelected and distSelected:  
                     if parts[2].strip() == diff and distanceChecker(dist, float(parts[3])):
-                        trails.append(parts[1].strip())
-                        diffs.append(parts[2].strip())
-                        mileage.append(parts[3].strip())
-                        heights.append(parts[4].strip())
+                        trailData = {}
+                        trailData["name"] = parts[1].strip()
+                        trailData["difficulty"] = parts[2].strip()
+                        trailData["mileage"] = parts[3].strip()
+                        trailData["elevation"] = parts[4].strip()
+                        trails.append(trailData)
                 #checks only for the difficulty button
                 elif diffSelected:
                     if parts[2].strip() == diff:
-                        trails.append(parts[1].strip())
-                        diffs.append(parts[2].strip())
-                        mileage.append(parts[3].strip())
-                        heights.append(parts[4].strip())
+                        trailData = {}
+                        trailData["name"] = parts[1].strip()
+                        trailData["difficulty"] = parts[2].strip()
+                        trailData["mileage"] = parts[3].strip()
+                        trailData["elevation"] = parts[4].strip()
+                        trails.append(trailData)
                 #checks for the distance button (no buttons was handled at the start of the function)
                 else:
                     if distanceChecker(dist, float(parts[3])):
-                        trails.append(parts[1].strip())
-                        diffs.append(parts[2].strip())
-                        mileage.append(parts[3].strip())
-                        heights.append(parts[4].strip())
+                        trailData = {}
+                        trailData["name"] = parts[1].strip()
+                        trailData["difficulty"] = parts[2].strip()
+                        trailData["mileage"] = parts[3].strip()
+                        trailData["elevation"] = parts[4].strip()
+                        trails.append(trailData)
     
     if not trails:
         print("No Trails That Meet These Specifications")
-
-    for i in range(len(trails)):
-        print(f"Trail: {trails[i]}, Diff: {diffs[i]}, Length: {mileage[i]}, Elevation: {heights[0]}")
     
-    return
+    return trails
  
 # function checks whether the line's trail length is in the range specified by the user
 def distanceChecker(dist, trailLength) -> bool:
@@ -71,4 +69,3 @@ def distanceChecker(dist, trailLength) -> bool:
     else:
         return False
 
-# checkPreferences("Easy", True, "Between 0.1 and 3.0", True)
