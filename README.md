@@ -27,11 +27,11 @@ Run localhost on your computer with LiveServer VSCode Extension
 
 ## Roadmap
 
-- [ ] Put all data in a CSV file manually
-- [ ] Use Python to break apart the CSV file
+- [x] Put all data in a CSV file manually
+- [x] Use Python to break apart the CSV file
 - [ ] Get data from Python to JavaScript
 - [ ] Implement basic HTML page and CSS Styling using JavaScript function(s)
-- [ ] Figure out best way to represent trail data
+- [ ] Figure out best way to represent trail data (MVP)
 - [ ] Implement Python API handler and test
 - [ ] Use python data in JavaScript/HTML
 - [ ] Improve UI

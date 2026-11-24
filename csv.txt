@@ -4,7 +4,7 @@ Smoky Mountains, Abrams Falls, Moderate, 5.1, 679
 Smoky Mountains, Laurel Falls, Easy, 2.5, 383
 Smoky Mountains, Charlies Bunion, Moderate, 8.1, 1837
 Smoky Mountains, Rainbow Falls, Moderate, 5.4, 1597
-Smoky Mountains, Mount Crammer Lookout Tower, Hard, 11, 3045
+Smoky Mountains, Mount Cammerer Lookout Tower, Hard, 11, 3045
 Smoky Mountains, Andrews Bald, Moderate, 3.6, 866
 Smoky Mountains, Mingus Mill and Newton Bald Trail, Hard, 10.4, 2992
 Smoky Mountains, Hen Wallow Falls, Moderate, 4.6, 997
@@ -17,7 +17,7 @@ Zion, The Subway, Hard, 7.4, 1210
 Zion, Weeping Rock, Easy, 0.4, 75
 Zion, Checkerboard Mesa, Hard, 8.1, 1840
 Zion, Watchman Trail, Moderate, 3.3, 551
-Zion, Koblob Arch, Hard, 14.2, 1650
+Zion, Kolob Arch, Hard, 14.2, 1650
 Grand Canyon, Bright Angel Point, Easy, 0.9, 111
 Grand Canyon, Desert View Watchtower, Easy, 0.5, 39
 Grand Canyon, Cape Royal, Easy, 1.2, 170
@@ -57,9 +57,9 @@ Acadia, Beech Mountain South Ridge Loop, Moderate, 1.2, 357
 Acadia, Great Head Trail Loop, Moderate, 1.9, 265
 Acadia, Precipice Loop, Hard, 2.8, 997
 Acadia, Dorr Mountain Ladder Trail, Hard, 3.2, 1151
-Acadia, Cadillac, Dorr, and Champlain Mountains Loop, Hard, 8.5, 2650
+Acadia, Jordan Pond Path, Moderate, 3.3, 52
 Yosemite, Glacier Point Trail, Easy, 0.5, 36
-Yosemite, Half Dome via Little Yosemtie Valley, Hard, 7.1, 2667
+Yosemite, Half Dome via Little Yosemite Valley, Hard, 7.1, 2667
 Yosemite, Vernal Falls, Hard, 3.4, 1115
 Yosemite, Lower Yosemite Falls Trail, Easy, 1.2, 59
 Yosemite, Clouds Rest, Hard, 12.6, 3038
@@ -69,12 +69,12 @@ Yosemite, North Dome, Hard, 9.8, 2004
 Yosemite, Lembert Dome Loop, Moderate, 3.9, 843
 Yosemite, Taft Point and the Fissures, Easy, 2.5, 328
 Grand Teton, Hidden Falls Trail, Moderate, 4.8, 200
-Grand Teton, Schwabacker's Landing, Easy, 0.5, 3
+Grand Teton, Schwabacher's Landing, Easy, 0.5, 3
 Grand Teton, Signal Mountain Trail, Moderate, 7.6, 1200
 Grand Teton, Oxbow Bend Overlook, Easy, 0.1, 3
 Grand Teton, Lake Solitude Trail, Hard, 16.8, 2542
 Grand Teton, Grand View Point Trail, Moderate, 3.1, 702
-Grand Teton, Suprise and Amphitheater Lakes Trail, Hard, 10.4, 2985
+Grand Teton, Surprise and Amphitheater Lakes Trail, Hard, 10.4, 2985
 Grand Teton, Jenny Lake Loop, Moderate, 7.7, 711
 Grand Teton, Lakeshore Trail, Easy, 2.6, 118
 Grand Teton, Delta Lake, Hard, 7.6, 2299
@@ -85,7 +85,7 @@ Olympic, Second Beach, Easy, 2.2, 275
 Olympic, Enchanted Valley Chalet, Hard, 26.5, 3326
 Olympic, Olympic Hot Springs, Hard, 21.8, 3031
 Olympic, Ozette Triangle, Moderate, 9.4, 541
-Olympic, Lake Angels Trail, Hard, 7.3, 2473
+Olympic, Lake Angeles Trail, Hard, 7.3, 2473
 Olympic, Third Beach, Easy, 2.6, 328
 Olympic, 5-Mile Island, Moderate, 10.2, 521
 Joshua Tree, Cholla Cactus Garden, Easy, 0.2, 6
@@ -100,7 +100,7 @@ Joshua Tree, Eagle Mountain, Hard, 10, 2500
 Joshua Tree, Smith Water Canyon, Hard, 8.6, 1049
 Glacier, Three Falls Trail, Moderate, 6.4, 790
 Glacier, Highline Trail, Hard, 15.2, 2306
-Glacier, Grinell Glacier, Hard, 11, 1948
+Glacier, Grinnell Glacier, Hard, 11, 1948
 Glacier, Running Eagle Falls, Easy, 0.6, 9
 Glacier, Siyeh Pass, Hard, 10.1, 2263
 Glacier, Rocky Point, Easy, 2, 285
