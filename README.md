@@ -46,7 +46,7 @@ MacOS/Linux:
 - [x] Put all data in a CSV file manually
 - [x] Use Python to break apart the CSV file
 - [x] Get data from Python to JavaScript
-- [ ] Implement basic HTML page and CSS Styling using JavaScript function(s)
+- [x] Implement basic HTML page and CSS Styling using JavaScript function(s)
 - [ ] Figure out best way to represent trail data (MVP)
 - [ ] Implement Python API handler and test
 - [ ] Use python data in JavaScript/HTML

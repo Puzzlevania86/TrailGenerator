@@ -1,4 +1,4 @@
-from flask import Flask, request
+from flask import Flask, request, jsonify
 from preferences import checkPreferences #Getting function from preferences.py
 
 #Creates an instance of the Flask class which can later be ran with app.run()
@@ -15,7 +15,7 @@ def get_trails():
     distSelected = bool(data["distSelected"])
     
     preferences = checkPreferences(park, diff, diffSelected, dist, distSelected)
-    return preferences
+    return jsonify(preferences)
     
 if __name__ == "__main__":
     app.run()

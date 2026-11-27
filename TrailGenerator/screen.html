@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trail Preference Generator</title>
+    <style>
+        body{
+            background-color: aliceblue;
+        }
+
+        .topbox{
+            text-align: center;
+        }
+
+        .textbox{
+            text-align: center;
+        }
+
+        .textbox textarea{
+            resize: horizontal;
+            min-width: 250px;
+            max-width: 700px;
+            font-size: 11pt;
+        }
+
+        .buttons{
+            display: flex;
+            align-items: center;
+            gap: 150px;
+        }
+
+        .diffPreference{
+            text-align: center;
+            margin-left: 200px;
+        }
+
+        .distPreference h2{
+            text-align: center;
+        }
+
+        .generate{
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class = "topbox">
+        <h1> Trail Preference Generator </h1>
+    </div>
+    <hr>
+    <div class = "textbox">
+        <textarea id = "text" onfocus = "this.value=''">Enter national park here </textarea>
+    </div>
+    <div class = "buttons">
+        <div class = "diffPreference">
+            <h2>Choose your difficulty preference: </h2>
+            <input type = "radio" id = "easy" name = "diff">
+            <label for = "easy">Easy</label>
+            <input type = "radio" id = "moderate" name = "diff">
+            <label for = "moderate">Moderate</label>
+            <input type = "radio" id = "hard" name = "diff">
+            <label for = "hard">Hard</label>
+        </div>
+        <div class = "distPreference">
+            <h2>Choose your distance preference: </h2>
+            <input type = "radio" id = "shortest" name = "dist">
+            <label for = "shortest">Between 0.1 and 3.0</label>
+            <input type = "radio" id = "short" name = "dist">
+            <label for = "short">Between 3.1 and 6.0</label>
+            <input type = "radio" id = "medium" name = "dist">
+            <label for = "medium">Between 6.1 and 9.0</label>
+            <input type = "radio" id = "long" name = "dist">
+            <label for = "long">Between 9.1 and 12.0</label>
+            <input type = "radio" id = "longest" name = "dist">
+            <label for = "longest">Greater than 12.0</label>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class = "generate">
+        <button id = "generateBtn" onclick="generate()"><h1>Find Preferences</h1></button>
+    </div>
+</body>
+</html>

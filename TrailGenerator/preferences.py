@@ -1,7 +1,7 @@
 #Finds the preferences based on the user's specified difficulty and/or distance
 def checkPreferences(parkName, diff, diffSelected, dist, distSelected):
     if not diffSelected and not distSelected:
-        return 
+        return []
     
     trails = []
     
@@ -38,7 +38,7 @@ def checkPreferences(parkName, diff, diffSelected, dist, distSelected):
                         trails.append(trailData)
     
     if not trails:
-        print("No Trails That Meet These Specifications")
+        return []
     
     return trails
  
