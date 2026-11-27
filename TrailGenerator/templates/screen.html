@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Trail Preference Generator</title>
+    <!-- We need to use the url_for() function to allow HTML and Flask to work with static files -->
+    <script src="{{ url_for('static', filename='handler.js') }}" defer></script>
     <style>
         body{
             background-color: aliceblue;
@@ -50,29 +52,29 @@
     </div>
     <hr>
     <div class = "textbox">
-        <textarea id = "text" onfocus = "this.value=''">Enter national park here </textarea>
+        <textarea id = "text" placeholder = "Enter national park here"></textarea>
     </div>
     <div class = "buttons">
         <div class = "diffPreference">
             <h2>Choose your difficulty preference: </h2>
-            <input type = "radio" id = "easy" name = "diff">
+            <input type = "radio" id = "easy" name = "diff" value="Easy">
             <label for = "easy">Easy</label>
-            <input type = "radio" id = "moderate" name = "diff">
+            <input type = "radio" id = "moderate" name = "diff" value="Moderate">
             <label for = "moderate">Moderate</label>
-            <input type = "radio" id = "hard" name = "diff">
+            <input type = "radio" id = "hard" name = "diff" value="Hard">
             <label for = "hard">Hard</label>
         </div>
         <div class = "distPreference">
             <h2>Choose your distance preference: </h2>
-            <input type = "radio" id = "shortest" name = "dist">
+            <input type = "radio" id = "shortest" name = "dist" value="Between 0.1 and 3.0">
             <label for = "shortest">Between 0.1 and 3.0</label>
-            <input type = "radio" id = "short" name = "dist">
+            <input type = "radio" id = "short" name = "dist" value="Between 3.1 and 6.0">
             <label for = "short">Between 3.1 and 6.0</label>
-            <input type = "radio" id = "medium" name = "dist">
+            <input type = "radio" id = "medium" name = "dist" value="Between 6.1 and 9.0">
             <label for = "medium">Between 6.1 and 9.0</label>
-            <input type = "radio" id = "long" name = "dist">
+            <input type = "radio" id = "long" name = "dist" value="Between 9.1 and 12.0">
             <label for = "long">Between 9.1 and 12.0</label>
-            <input type = "radio" id = "longest" name = "dist">
+            <input type = "radio" id = "longest" name = "dist" value="Greater than 12.0">
             <label for = "longest">Greater than 12.0</label>
         </div>
     </div>
@@ -81,5 +83,8 @@
     <div class = "generate">
         <button id = "generateBtn" onclick="generate()"><h1>Find Preferences</h1></button>
     </div>
+    <br>
+    <br>
+    <div class = "outputArea" id = "outputArea"></div>
 </body>
 </html>

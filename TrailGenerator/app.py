@@ -1,8 +1,13 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 from preferences import checkPreferences #Getting function from preferences.py
 
 #Creates an instance of the Flask class which can later be ran with app.run()
 app = Flask(__name__)
+
+# Flask runs this function when someone visits the corresponding URL
+@app.route("/")
+def home():
+    return render_template("screen.html") #HTML file has to be in a templates directory and JS has to be in static
 
 #Takes in data from JS and returns the preferences 
 @app.route("/get_trails", methods=["POST"])

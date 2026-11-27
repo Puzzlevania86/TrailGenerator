@@ -8,11 +8,12 @@ function generate() {
         text.id = "output";
         text.value = "Please enter a park";
         text.readOnly = true;
-        text.style.textAlign = "center";
+        text.style.display = "block";
+        text.style.margin = "0 auto";
         text.style.resize = "none";
 
-        const generateArea = document.getElementById("generate");
-        generateArea.appendChild(text);
+        const area = document.getElementById("outputArea");
+        area.appendChild(text);
         return;
     }
     
@@ -29,26 +30,30 @@ function generate() {
         text.id = "output";
         text.value = "Please select the difficulty, distance, or both";
         text.readOnly = true;
-        text.style.textAlign = "center";
+        text.style.display = "block";
+        text.style.margin = "0 auto";
         text.style.resize = "none";
 
-        const generateArea = document.getElementById("generate");
-        generateArea.appendChild(text);
+        const area = document.getElementById("outputArea");
+        area.appendChild(text);
         return;
     }
 
     // Creates the data that is going to be sent to app.py
     const info = {
         park: place,
-        diff: levelDiff,
+        diff: levelDiff ?? null, // The ?? operator assigns diff to null if levelDiff is undefined
         diffSelected: levelSelected,
-        dist: len,
+        dist: len ?? null,
         distSelected: lenSelected,
     }
 
     // Connects to the Flask get_trails function and makes all the data into JSON strings
     fetch("/get_trails", {
         method: "POST",
+        headers: {
+            "Content-Type": "application/json" // Need this header to show that I am sending JSON to Flask
+        },
         body: JSON.stringify(info),
     })
     .then(response => {
@@ -61,7 +66,11 @@ function generate() {
         let text = document.createElement("textarea");
         text.id = "output";
         text.readOnly = true;
-        text.style.textAlign = "center";
+        text.style.width = "500px";
+        text.style.height = "80px";
+        text.style.fontSize = "12px";
+        text.style.display = "block";
+        text.style.margin = "0 auto";
         text.style.resize = "none";
 
         if (data.length == 0) {
@@ -73,12 +82,13 @@ function generate() {
                 let mileage = data[i]["mileage"];
                 let elevation = data[i]["elevation"];
                 
-                text.value += name + ", " + difficulty + ", " + mileage + ", " + elevation + "\n";
+                text.value += "Trail: " + name + ", " + "Difficulty: " + difficulty + ", " + 
+                mileage + " miles, " + elevation + " ft. \n";
             }
         }
         
-        const generateArea = document.getElementById("generate");
-        generateArea.appendChild(text);
+        const area = document.getElementById("outputArea");
+        area.appendChild(text);
     })
     .catch(error => console.error(error));
     

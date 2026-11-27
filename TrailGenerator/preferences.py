@@ -12,35 +12,32 @@ def checkPreferences(parkName, diff, diffSelected, dist, distSelected):
                 #checks if both difficulty and distance buttons were selected
                 if diffSelected and distSelected:  
                     if parts[2].strip() == diff and distanceChecker(dist, float(parts[3])):
-                        trailData = {}
-                        trailData["name"] = parts[1].strip()
-                        trailData["difficulty"] = parts[2].strip()
-                        trailData["mileage"] = parts[3].strip()
-                        trailData["elevation"] = parts[4].strip()
-                        trails.append(trailData)
+                        res = addData(parts[1].strip(), parts[2].strip(), parts[3].strip(), parts[4].strip())
+                        trails.append(res)
                 #checks only for the difficulty button
                 elif diffSelected:
                     if parts[2].strip() == diff:
-                        trailData = {}
-                        trailData["name"] = parts[1].strip()
-                        trailData["difficulty"] = parts[2].strip()
-                        trailData["mileage"] = parts[3].strip()
-                        trailData["elevation"] = parts[4].strip()
-                        trails.append(trailData)
+                        res = addData(parts[1].strip(), parts[2].strip(), parts[3].strip(), parts[4].strip())
+                        trails.append(res)
                 #checks for the distance button (no buttons was handled at the start of the function)
                 else:
                     if distanceChecker(dist, float(parts[3])):
-                        trailData = {}
-                        trailData["name"] = parts[1].strip()
-                        trailData["difficulty"] = parts[2].strip()
-                        trailData["mileage"] = parts[3].strip()
-                        trailData["elevation"] = parts[4].strip()
-                        trails.append(trailData)
+                        res = addData(parts[1].strip(), parts[2].strip(), parts[3].strip(), parts[4].strip())
+                        trails.append(res)
     
     if not trails:
         return []
     
     return trails
+
+# function adds trail data into a dictionary that is returned to the checkPreferences() function
+def addData(data1, data2, data3, data4):
+    trailData = {}
+    trailData["name"] = data1
+    trailData["difficulty"] = data2
+    trailData["mileage"] = data3
+    trailData["elevation"] = data4
+    return trailData
  
 # function checks whether the line's trail length is in the range specified by the user
 def distanceChecker(dist, trailLength) -> bool:
