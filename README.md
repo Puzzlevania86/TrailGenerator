@@ -48,10 +48,11 @@ MacOS/Linux:
 - [x] Get data from Python to JavaScript
 - [x] Implement basic HTML page and CSS Styling using JavaScript function(s)
 - [x] Figure out best way to represent trail data (MVP)
-- [ ] Implement Python API handler and test
-- [ ] Use python data in JavaScript/HTML
-- [ ] Improve UI
-- [ ] Add more national parks/trails if time
+- [ ] Create Dropdown Bar with available National Parks
+
+## Note about Project
+
+Originally, I planned to put in a geolocator into this project that would allow the user to enter in a location and the program would find a nearby national park (only the ones already in the csv) that was closest to that location. I ran out of time to undergo this part, but the core functionality that was planned for the MVP is all implemented. I ended up adding a dropdown bar as my final piece of this project.
 
 ## Author 
 
