@@ -9,17 +9,17 @@ It is often hard to find what trails you may want to go on. This site is intende
 ## How It Works
 
 - Program takes in data from a CSV file about various national parks and the highest rated trails at each location
-- The site allows the user to enter their location or of a location they would like to view
-- Python "geocodes" these locations, finding the closest relevant national parks
+- The site allows the user to pick between 15 total national parks
 - Then, the user can specify what kind of difficulty and mileage they may want
 - These preferences inform the program to return trails that relate to your designated preferences
 
-![System Diagram](https://github.com/user-attachments/assets/6e613fae-1d8b-44e6-b9e6-a7d37dba1314)
+![System Diagram](https://github.com/Puzzlevania86/TrailGenerator/blob/main/Hiking%20Trail%20Generator%20Flowchart.drawio.png?raw=true)
+
 
 ## Tech Stack
 
 - **Languages**: HTML/CSS, Python, JavaScript
-- **External Tools**: Flask, Geocoding API by Geoapify
+- **External Tools**: Flask
 
 ## How to Use
 
@@ -27,19 +27,19 @@ Windows (Powershell):
 - `python -m venv venv`
 - `venv\Scripts\Activate.ps1`
 - `pip install -r requirements.txt`
-- Click on `app.py` and run it in a terminal
+- `python TrailGenerator\app.py`
 
 Windows (Command Shell):
 - `python -m venv venv`
 - `venv\Scripts\activate`
 - `pip install -r requirements.txt`
-- Click on `app.py` and run it in a terminal
+- `python TrailGenerator\app.py`
 
 MacOS/Linux:
 - `python3 -m venv venv`
 - `source venv/bin/activate`
 - `pip install -r requirements.txt`
-- Click on `app.py` and run it in a terminal
+- `python TrailGenerator/app.py`
 
 ## Roadmap
 
@@ -47,8 +47,12 @@ MacOS/Linux:
 - [x] Use Python to break apart the CSV file
 - [x] Get data from Python to JavaScript
 - [x] Implement basic HTML page and CSS Styling using JavaScript function(s)
-- [x] Figure out best way to represent trail data (MVP)
-- [ ] Create Dropdown Bar with available National Parks
+- [x] Adjust display of data and formatting (MVP)
+- [x] Create Dropdown Bar with available National Parks
+
+## Demo
+
+
 
 ## Note about Project
 
